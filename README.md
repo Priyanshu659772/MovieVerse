@@ -8,7 +8,7 @@ Users can search movies, browse categories, view movie posters, ratings, plot su
 ---
 
 ## 🚀 Live Demo  
-🔗 **https://yourusername.github.io/MovieVerse/**  
+🔗 **(https://priyanshu659772.github.io/MovieVerse/)**  
 (Replace with your actual GitHub Pages link)
 
 ---
@@ -59,10 +59,7 @@ Clean, dark-themed interface with smooth hover effects and grid layout.
 This project uses the **OMDb API**:  
 https://www.omdbapi.com/
 
-Your API Key:
-```
-880ff750
-```
+
 
 ---
 
