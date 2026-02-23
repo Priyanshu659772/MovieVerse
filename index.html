@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieVerse API Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>MovieVerse</h1>
+  <input type="text" id="searchInput" placeholder="Search movies...">
+</header>
+
+<!-- Categories -->
+<div class="categories">
+  <button class="cat-btn" onclick="filterCategory('avengers')">Trending</button>
+  <button class="cat-btn" onclick="filterCategory('action')">Action</button>
+  <button class="cat-btn" onclick="filterCategory('horror')">Horror</button>
+  <button class="cat-btn" onclick="filterCategory('sci-fi')">Sci-Fi</button>
+  <button class="cat-btn" onclick="filterCategory('comedy')">Comedy</button>
+  <button class="cat-btn" onclick="filterCategory('drama')">Drama</button>
+  <button class="cat-btn" onclick="filterCategory('romance')">Romance</button>
+  
+</div>
+
+<!-- Movie Cards -->
+<div id="movieContainer" class="movie-grid"></div>
+
+<!-- Popup -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <img id="popupImg">
+    <h2 id="popupTitle"></h2>
+    <p id="popupDesc"></p>
+    <p><strong>Rating:</strong> ⭐ <span id="popupRate"></span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
