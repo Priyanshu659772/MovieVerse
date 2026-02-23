@@ -2,7 +2,7 @@ const API_KEY = "880ff750";
 const movieContainer = document.getElementById("movieContainer");
 
 // Load default movies
-loadMovies("avengers");
+loadMovies("nirahua");
 
 // Fetch movies from OMDb
 function loadMovies(query) {
@@ -69,4 +69,5 @@ document.getElementById("searchInput").addEventListener("input", function () {
 // Category → keyword search
 function filterCategory(cat) {
   loadMovies(cat);
+
 }
