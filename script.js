@@ -71,3 +71,4 @@ function filterCategory(cat) {
   loadMovies(cat);
 
 }
+
